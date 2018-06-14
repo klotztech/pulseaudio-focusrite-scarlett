@@ -3,7 +3,7 @@ This PulseAudio configuration provides remappings of the individual input channe
 
 This also fixes issues with applications expecting a stereo device but only getting a single channel, and therefore just muting the other (e.g. TeamSpeak with CELT Music codec).
 
-The interesting bits where appended at the bottom of the ``default.pa`` file.
+The interesting bits where appended at the bottom of the ``default.pa`` file which goes to ``/etc/pulseaudio/default.pa``.
 
 # Screenshot (pavucontrol)
 ![Configuration for the Scarlett 2i2 USB Interface](/.images/scarlett.png)
